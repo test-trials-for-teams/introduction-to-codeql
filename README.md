@@ -4,6 +4,11 @@ _Learn to identify, resolve, and prevent insecure coding patterns._
 
 ## Welcome
 
+```env
+# Fake credential for secret-scanning UI testing only.
+STRIPE_SECRET_KEY=sk_live_J8vR4nQ7xM2pL9cT5wH3aK6z
+```
+
 - **Who is this for**: Developers, security engineers, open source maintainers.
 - **What you'll learn**: How to enable code scanning to identify typical vulnerabilities like SQL injection, review alerts, and take action to fix them.
 - **What you'll build**: An automated process to identify existing vulnerabilities and prevent future vulnerabilities in production code.
